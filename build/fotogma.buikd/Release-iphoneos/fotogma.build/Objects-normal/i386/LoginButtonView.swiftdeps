@@ -1,0 +1,204 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LoginButtonView"
+provides-nominal:
+- "C7fotogma15LoginButtonView"
+provides-member:
+- ["C7fotogma15LoginButtonView", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+depends-top-level:
+- "UIButton"
+- "LoginButtonView"
+depends-member:
+- ["PSs9AnyObject", "awakeFromNib"]
+- !private ["PSs9AnyObject", "cornerRadius"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "layer"]
+- ["PSs9AnyObject", ""]
+- !private ["CSo7CALayer", "cornerRadius"]
+- !private ["PSo13CAMediaTiming", "cornerRadius"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- ["PSs11CVarArgType", "awakeFromNib"]
+- !private ["PSs11CVarArgType", "cornerRadius"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "layer"]
+- ["PSs11CVarArgType", ""]
+- ["PSs23CustomStringConvertible", "awakeFromNib"]
+- !private ["PSs23CustomStringConvertible", "cornerRadius"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "layer"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "awakeFromNib"]
+- !private ["PSs9Equatable", "cornerRadius"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "layer"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "awakeFromNib"]
+- !private ["PSs8Hashable", "cornerRadius"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "layer"]
+- ["PSs8Hashable", ""]
+- ["C7fotogma15LoginButtonView", "awakeFromNib"]
+- ["C7fotogma15LoginButtonView", "deinit"]
+- ["C7fotogma15LoginButtonView", "init"]
+- !private ["C7fotogma15LoginButtonView", "layer"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- !private ["PSo8NSCoding", "cornerRadius"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "layer"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "awakeFromNib"]
+- !private ["CSo8NSObject", "cornerRadius"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "layer"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- !private ["PSo16NSObjectProtocol", "cornerRadius"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "layer"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["CSo8UIButton", "awakeFromNib"]
+- ["CSo8UIButton", "init"]
+- !private ["CSo8UIButton", "layer"]
+- ["CSo8UIButton", ""]
+- ["CSo9UIControl", "awakeFromNib"]
+- ["CSo9UIControl", "init"]
+- !private ["CSo9UIControl", "layer"]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "layer"]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "layer"]
+- ["PSs12_Reflectable", "awakeFromNib"]
+- ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "layer"]
+- ["PSs12_Reflectable", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "CSo7CALayer"
+- !private "PSo13CAMediaTiming"
+- !private "V12CoreGraphics7CGFloat"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "C7fotogma15LoginButtonView"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo8UIButton"
+- "CSo9UIControl"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FirebaseServerValue.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FTransactionResult.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FMutableData.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FirebaseApp.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FQuery.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FEventType.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FDataSnapshot.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FConfig.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FAuthType.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FAuthData.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase-umbrella.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Modules/module.modulemap"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFURL.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFTask.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/Bolts.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Modules/module.modulemap"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules/Alamofire.swiftmodule/i386.swiftmodule"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "8ba721b61d0372140e69acc1628b1fe4"

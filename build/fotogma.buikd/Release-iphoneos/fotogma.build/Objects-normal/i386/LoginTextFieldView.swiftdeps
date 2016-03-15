@@ -1,0 +1,487 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LoginTextFieldView"
+provides-nominal:
+- "C7fotogma18LoginTextFieldView"
+provides-member:
+- ["C7fotogma18LoginTextFieldView", ""]
+provides-dynamic-lookup:
+- "textRectForBounds"
+- "editingRectForBounds"
+- "awakeFromNib"
+depends-top-level:
+- !private "NSAttributedString"
+- "LoginTextFieldView"
+- !private "/"
+- !private "NSForegroundColorAttributeName"
+- !private "Dictionary"
+- !private "CGRectInset"
+- "CGRect"
+- "UITextField"
+- !private "UIColor"
+depends-member:
+- !private ["PSs9AnyObject", "CGColor"]
+- !private ["PSs9AnyObject", "CGRectInset"]
+- !private ["PSs9AnyObject", "NSAttributedString"]
+- !private ["PSs9AnyObject", "NSForegroundColorAttributeName"]
+- !private ["PSs9AnyObject", "UIColor"]
+- !private ["PSs9AnyObject", "attributedPlaceholder"]
+- ["PSs9AnyObject", "awakeFromNib"]
+- !private ["PSs9AnyObject", "backgroundColor"]
+- !private ["PSs9AnyObject", "cornerRadius"]
+- ["PSs9AnyObject", "editingRectForBounds"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "layer"]
+- !private ["PSs9AnyObject", "placeholder"]
+- ["PSs9AnyObject", "textRectForBounds"]
+- ["PSs9AnyObject", ""]
+- !private ["CSo7CALayer", "backgroundColor"]
+- !private ["CSo7CALayer", "cornerRadius"]
+- !private ["PSo13CAMediaTiming", "backgroundColor"]
+- !private ["PSo13CAMediaTiming", "cornerRadius"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["PSs11CVarArgType", "CGColor"]
+- !private ["PSs11CVarArgType", "CGRectInset"]
+- !private ["PSs11CVarArgType", "NSAttributedString"]
+- !private ["PSs11CVarArgType", "NSForegroundColorAttributeName"]
+- !private ["PSs11CVarArgType", "UIColor"]
+- !private ["PSs11CVarArgType", "attributedPlaceholder"]
+- ["PSs11CVarArgType", "awakeFromNib"]
+- !private ["PSs11CVarArgType", "backgroundColor"]
+- !private ["PSs11CVarArgType", "cornerRadius"]
+- ["PSs11CVarArgType", "editingRectForBounds"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "layer"]
+- !private ["PSs11CVarArgType", "placeholder"]
+- ["PSs11CVarArgType", "textRectForBounds"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs14CollectionType", "Key"]
+- !private ["PSs14CollectionType", "Value"]
+- !private ["PSs28CustomDebugStringConvertible", "Key"]
+- !private ["PSs28CustomDebugStringConvertible", "Value"]
+- !private ["PSs23CustomStringConvertible", "CGColor"]
+- !private ["PSs23CustomStringConvertible", "CGRectInset"]
+- !private ["PSs23CustomStringConvertible", "Key"]
+- !private ["PSs23CustomStringConvertible", "NSAttributedString"]
+- !private ["PSs23CustomStringConvertible", "NSForegroundColorAttributeName"]
+- !private ["PSs23CustomStringConvertible", "UIColor"]
+- !private ["PSs23CustomStringConvertible", "Value"]
+- !private ["PSs23CustomStringConvertible", "attributedPlaceholder"]
+- ["PSs23CustomStringConvertible", "awakeFromNib"]
+- !private ["PSs23CustomStringConvertible", "backgroundColor"]
+- !private ["PSs23CustomStringConvertible", "cornerRadius"]
+- ["PSs23CustomStringConvertible", "editingRectForBounds"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "layer"]
+- !private ["PSs23CustomStringConvertible", "placeholder"]
+- ["PSs23CustomStringConvertible", "textRectForBounds"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["VSs10Dictionary", "Key"]
+- !private ["VSs10Dictionary", "Value"]
+- !private ["PSs28DictionaryLiteralConvertible", "Key"]
+- !private ["PSs28DictionaryLiteralConvertible", "Value"]
+- !private ["PSs9Equatable", "CGColor"]
+- !private ["PSs9Equatable", "CGRectInset"]
+- !private ["PSs9Equatable", "NSAttributedString"]
+- !private ["PSs9Equatable", "NSForegroundColorAttributeName"]
+- !private ["PSs9Equatable", "UIColor"]
+- !private ["PSs9Equatable", "attributedPlaceholder"]
+- ["PSs9Equatable", "awakeFromNib"]
+- !private ["PSs9Equatable", "backgroundColor"]
+- !private ["PSs9Equatable", "cornerRadius"]
+- ["PSs9Equatable", "editingRectForBounds"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "layer"]
+- !private ["PSs9Equatable", "placeholder"]
+- ["PSs9Equatable", "textRectForBounds"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "CGColor"]
+- !private ["PSs8Hashable", "CGRectInset"]
+- !private ["PSs8Hashable", "NSAttributedString"]
+- !private ["PSs8Hashable", "NSForegroundColorAttributeName"]
+- !private ["PSs8Hashable", "UIColor"]
+- !private ["PSs8Hashable", "attributedPlaceholder"]
+- ["PSs8Hashable", "awakeFromNib"]
+- !private ["PSs8Hashable", "backgroundColor"]
+- !private ["PSs8Hashable", "cornerRadius"]
+- ["PSs8Hashable", "editingRectForBounds"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "layer"]
+- !private ["PSs8Hashable", "placeholder"]
+- ["PSs8Hashable", "textRectForBounds"]
+- ["PSs8Hashable", ""]
+- !private ["PSs9Indexable", "Key"]
+- !private ["PSs9Indexable", "Value"]
+- ["C7fotogma18LoginTextFieldView", "CGRect"]
+- !private ["C7fotogma18LoginTextFieldView", "CGRectInset"]
+- !private ["C7fotogma18LoginTextFieldView", "NSAttributedString"]
+- !private ["C7fotogma18LoginTextFieldView", "NSForegroundColorAttributeName"]
+- !private ["C7fotogma18LoginTextFieldView", "UIColor"]
+- !private ["C7fotogma18LoginTextFieldView", "attributedPlaceholder"]
+- ["C7fotogma18LoginTextFieldView", "awakeFromNib"]
+- ["C7fotogma18LoginTextFieldView", "deinit"]
+- ["C7fotogma18LoginTextFieldView", "editingRectForBounds"]
+- ["C7fotogma18LoginTextFieldView", "init"]
+- !private ["C7fotogma18LoginTextFieldView", "layer"]
+- !private ["C7fotogma18LoginTextFieldView", "placeholder"]
+- ["C7fotogma18LoginTextFieldView", "textRectForBounds"]
+- !private ["CSo18NSAttributedString", "init"]
+- !private ["PSo8NSCoding", "CGColor"]
+- !private ["PSo8NSCoding", "CGRectInset"]
+- !private ["PSo8NSCoding", "NSAttributedString"]
+- !private ["PSo8NSCoding", "NSForegroundColorAttributeName"]
+- !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "attributedPlaceholder"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- !private ["PSo8NSCoding", "backgroundColor"]
+- !private ["PSo8NSCoding", "cornerRadius"]
+- ["PSo8NSCoding", "editingRectForBounds"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "layer"]
+- !private ["PSo8NSCoding", "placeholder"]
+- ["PSo8NSCoding", "textRectForBounds"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "CGColor"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "CGColor"]
+- ["CSo8NSObject", "CGRect"]
+- !private ["CSo8NSObject", "CGRectInset"]
+- !private ["CSo8NSObject", "NSAttributedString"]
+- !private ["CSo8NSObject", "NSForegroundColorAttributeName"]
+- !private ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "attributedPlaceholder"]
+- ["CSo8NSObject", "awakeFromNib"]
+- !private ["CSo8NSObject", "backgroundColor"]
+- !private ["CSo8NSObject", "cornerRadius"]
+- ["CSo8NSObject", "editingRectForBounds"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "layer"]
+- !private ["CSo8NSObject", "placeholder"]
+- ["CSo8NSObject", "textRectForBounds"]
+- !private ["PSo16NSObjectProtocol", "CGColor"]
+- !private ["PSo16NSObjectProtocol", "CGRectInset"]
+- !private ["PSo16NSObjectProtocol", "NSAttributedString"]
+- !private ["PSo16NSObjectProtocol", "NSForegroundColorAttributeName"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "attributedPlaceholder"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- !private ["PSo16NSObjectProtocol", "backgroundColor"]
+- !private ["PSo16NSObjectProtocol", "cornerRadius"]
+- ["PSo16NSObjectProtocol", "editingRectForBounds"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- !private ["PSo16NSObjectProtocol", "placeholder"]
+- ["PSo16NSObjectProtocol", "textRectForBounds"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "CGColor"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["Sq", "deinit"]
+- !private ["PSs12SequenceType", "Key"]
+- !private ["PSs12SequenceType", "Value"]
+- !private ["PSo29UIAccessibilityIdentification", "CGRectInset"]
+- !private ["PSo29UIAccessibilityIdentification", "NSAttributedString"]
+- !private ["PSo29UIAccessibilityIdentification", "NSForegroundColorAttributeName"]
+- !private ["PSo29UIAccessibilityIdentification", "UIColor"]
+- !private ["PSo29UIAccessibilityIdentification", "attributedPlaceholder"]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- ["PSo29UIAccessibilityIdentification", "editingRectForBounds"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- !private ["PSo29UIAccessibilityIdentification", "placeholder"]
+- ["PSo29UIAccessibilityIdentification", "textRectForBounds"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "CGRectInset"]
+- !private ["PSo12UIAppearance", "NSAttributedString"]
+- !private ["PSo12UIAppearance", "NSForegroundColorAttributeName"]
+- !private ["PSo12UIAppearance", "UIColor"]
+- !private ["PSo12UIAppearance", "attributedPlaceholder"]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- ["PSo12UIAppearance", "editingRectForBounds"]
+- ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "layer"]
+- !private ["PSo12UIAppearance", "placeholder"]
+- ["PSo12UIAppearance", "textRectForBounds"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "CGRectInset"]
+- !private ["PSo21UIAppearanceContainer", "NSAttributedString"]
+- !private ["PSo21UIAppearanceContainer", "NSForegroundColorAttributeName"]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
+- !private ["PSo21UIAppearanceContainer", "attributedPlaceholder"]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- ["PSo21UIAppearanceContainer", "editingRectForBounds"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- !private ["PSo21UIAppearanceContainer", "placeholder"]
+- ["PSo21UIAppearanceContainer", "textRectForBounds"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo7UIColor", "CGColor"]
+- !private ["CSo7UIColor", "init"]
+- ["CSo9UIControl", "CGRect"]
+- !private ["CSo9UIControl", "CGRectInset"]
+- !private ["CSo9UIControl", "NSAttributedString"]
+- !private ["CSo9UIControl", "NSForegroundColorAttributeName"]
+- !private ["CSo9UIControl", "UIColor"]
+- !private ["CSo9UIControl", "attributedPlaceholder"]
+- ["CSo9UIControl", "awakeFromNib"]
+- ["CSo9UIControl", "editingRectForBounds"]
+- ["CSo9UIControl", "init"]
+- !private ["CSo9UIControl", "layer"]
+- !private ["CSo9UIControl", "placeholder"]
+- ["CSo9UIControl", "textRectForBounds"]
+- !private ["PSo17UICoordinateSpace", "CGRectInset"]
+- !private ["PSo17UICoordinateSpace", "NSAttributedString"]
+- !private ["PSo17UICoordinateSpace", "NSForegroundColorAttributeName"]
+- !private ["PSo17UICoordinateSpace", "UIColor"]
+- !private ["PSo17UICoordinateSpace", "attributedPlaceholder"]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- ["PSo17UICoordinateSpace", "editingRectForBounds"]
+- ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- !private ["PSo17UICoordinateSpace", "placeholder"]
+- ["PSo17UICoordinateSpace", "textRectForBounds"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "CGRectInset"]
+- !private ["PSo13UIDynamicItem", "NSAttributedString"]
+- !private ["PSo13UIDynamicItem", "NSForegroundColorAttributeName"]
+- !private ["PSo13UIDynamicItem", "UIColor"]
+- !private ["PSo13UIDynamicItem", "attributedPlaceholder"]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- ["PSo13UIDynamicItem", "editingRectForBounds"]
+- ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- !private ["PSo13UIDynamicItem", "placeholder"]
+- ["PSo13UIDynamicItem", "textRectForBounds"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "CGRectInset"]
+- !private ["PSo18UIFocusEnvironment", "NSAttributedString"]
+- !private ["PSo18UIFocusEnvironment", "NSForegroundColorAttributeName"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "attributedPlaceholder"]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- ["PSo18UIFocusEnvironment", "editingRectForBounds"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- !private ["PSo18UIFocusEnvironment", "placeholder"]
+- ["PSo18UIFocusEnvironment", "textRectForBounds"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo10UIKeyInput", "CGRectInset"]
+- !private ["PSo10UIKeyInput", "NSAttributedString"]
+- !private ["PSo10UIKeyInput", "NSForegroundColorAttributeName"]
+- !private ["PSo10UIKeyInput", "UIColor"]
+- !private ["PSo10UIKeyInput", "attributedPlaceholder"]
+- ["PSo10UIKeyInput", "awakeFromNib"]
+- ["PSo10UIKeyInput", "editingRectForBounds"]
+- ["PSo10UIKeyInput", "init"]
+- !private ["PSo10UIKeyInput", "layer"]
+- !private ["PSo10UIKeyInput", "placeholder"]
+- ["PSo10UIKeyInput", "textRectForBounds"]
+- ["PSo10UIKeyInput", ""]
+- ["CSo11UIResponder", "CGRect"]
+- !private ["CSo11UIResponder", "CGRectInset"]
+- !private ["CSo11UIResponder", "NSAttributedString"]
+- !private ["CSo11UIResponder", "NSForegroundColorAttributeName"]
+- !private ["CSo11UIResponder", "UIColor"]
+- !private ["CSo11UIResponder", "attributedPlaceholder"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "editingRectForBounds"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "layer"]
+- !private ["CSo11UIResponder", "placeholder"]
+- ["CSo11UIResponder", "textRectForBounds"]
+- ["CSo11UITextField", "CGRect"]
+- !private ["CSo11UITextField", "CGRectInset"]
+- !private ["CSo11UITextField", "NSAttributedString"]
+- !private ["CSo11UITextField", "NSForegroundColorAttributeName"]
+- !private ["CSo11UITextField", "UIColor"]
+- !private ["CSo11UITextField", "attributedPlaceholder"]
+- ["CSo11UITextField", "awakeFromNib"]
+- ["CSo11UITextField", "editingRectForBounds"]
+- ["CSo11UITextField", "init"]
+- !private ["CSo11UITextField", "layer"]
+- !private ["CSo11UITextField", "placeholder"]
+- ["CSo11UITextField", "textRectForBounds"]
+- ["CSo11UITextField", ""]
+- !private ["PSo11UITextInput", "CGRectInset"]
+- !private ["PSo11UITextInput", "NSAttributedString"]
+- !private ["PSo11UITextInput", "NSForegroundColorAttributeName"]
+- !private ["PSo11UITextInput", "UIColor"]
+- !private ["PSo11UITextInput", "attributedPlaceholder"]
+- ["PSo11UITextInput", "awakeFromNib"]
+- ["PSo11UITextInput", "editingRectForBounds"]
+- ["PSo11UITextInput", "init"]
+- !private ["PSo11UITextInput", "layer"]
+- !private ["PSo11UITextInput", "placeholder"]
+- ["PSo11UITextInput", "textRectForBounds"]
+- ["PSo11UITextInput", ""]
+- !private ["PSo17UITextInputTraits", "CGRectInset"]
+- !private ["PSo17UITextInputTraits", "NSAttributedString"]
+- !private ["PSo17UITextInputTraits", "NSForegroundColorAttributeName"]
+- !private ["PSo17UITextInputTraits", "UIColor"]
+- !private ["PSo17UITextInputTraits", "attributedPlaceholder"]
+- ["PSo17UITextInputTraits", "awakeFromNib"]
+- ["PSo17UITextInputTraits", "editingRectForBounds"]
+- ["PSo17UITextInputTraits", "init"]
+- !private ["PSo17UITextInputTraits", "layer"]
+- !private ["PSo17UITextInputTraits", "placeholder"]
+- ["PSo17UITextInputTraits", "textRectForBounds"]
+- ["PSo17UITextInputTraits", ""]
+- !private ["PSo18UITraitEnvironment", "CGRectInset"]
+- !private ["PSo18UITraitEnvironment", "NSAttributedString"]
+- !private ["PSo18UITraitEnvironment", "NSForegroundColorAttributeName"]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
+- !private ["PSo18UITraitEnvironment", "attributedPlaceholder"]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- ["PSo18UITraitEnvironment", "editingRectForBounds"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- !private ["PSo18UITraitEnvironment", "placeholder"]
+- ["PSo18UITraitEnvironment", "textRectForBounds"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "CGRect"]
+- !private ["CSo6UIView", "CGRectInset"]
+- !private ["CSo6UIView", "NSAttributedString"]
+- !private ["CSo6UIView", "NSForegroundColorAttributeName"]
+- !private ["CSo6UIView", "UIColor"]
+- !private ["CSo6UIView", "attributedPlaceholder"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "editingRectForBounds"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "layer"]
+- !private ["CSo6UIView", "placeholder"]
+- ["CSo6UIView", "textRectForBounds"]
+- !private ["PSs24_ColorLiteralConvertible", "CGColor"]
+- !private ["PSs24_ColorLiteralConvertible", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "Key"]
+- !private ["PSs21_ObjectiveCBridgeable", "Value"]
+- !private ["PSs12_Reflectable", "CGRectInset"]
+- !private ["PSs12_Reflectable", "Key"]
+- !private ["PSs12_Reflectable", "NSAttributedString"]
+- !private ["PSs12_Reflectable", "NSForegroundColorAttributeName"]
+- !private ["PSs12_Reflectable", "UIColor"]
+- !private ["PSs12_Reflectable", "Value"]
+- !private ["PSs12_Reflectable", "attributedPlaceholder"]
+- ["PSs12_Reflectable", "awakeFromNib"]
+- ["PSs12_Reflectable", "editingRectForBounds"]
+- ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "layer"]
+- !private ["PSs12_Reflectable", "placeholder"]
+- ["PSs12_Reflectable", "textRectForBounds"]
+- ["PSs12_Reflectable", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "CSo7CALayer"
+- !private "PSo13CAMediaTiming"
+- !private "V12CoreGraphics7CGFloat"
+- "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "VSs10Dictionary"
+- !private "PSs28DictionaryLiteralConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- !private "PSs9Indexable"
+- "C7fotogma18LoginTextFieldView"
+- !private "CSo18NSAttributedString"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "Sq"
+- !private "PSs12SequenceType"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo7UIColor"
+- "CSo9UIControl"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- "CSo11UITextField"
+- "PSo11UITextInput"
+- "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "PSs24_ColorLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FirebaseServerValue.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FTransactionResult.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FMutableData.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FirebaseApp.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FQuery.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FEventType.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FDataSnapshot.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FConfig.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FAuthType.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FAuthData.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase-umbrella.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Modules/module.modulemap"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFURL.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFTask.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/Bolts.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Modules/module.modulemap"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules/Alamofire.swiftmodule/i386.swiftmodule"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "c0b6be5b54c4ebc67c97098d6af758e9"

@@ -1,0 +1,169 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Post"
+provides-nominal:
+- "C7fotogma4Post"
+provides-member:
+- ["C7fotogma4Post", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "StringLiteralType"
+- "String"
+- "Dictionary"
+- "Post"
+- "Int"
+- "AnyObject"
+depends-member:
+- !private ["PSs9AnyObject", "_imageUrl"]
+- !private ["PSs9AnyObject", "_likes"]
+- !private ["PSs9AnyObject", "_postDescription"]
+- !private ["PSs9AnyObject", "_postKey"]
+- !private ["PSs9AnyObject", "_username"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- !private ["VSs10Dictionary", "Index"]
+- !private ["VSs10Dictionary", "deinit"]
+- !private ["VSs10Dictionary", "subscript"]
+- !private ["PSs28DictionaryLiteralConvertible", "Index"]
+- !private ["PSs28DictionaryLiteralConvertible", "subscript"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- ["PSs21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- ["C7fotogma4Post", "AnyObject"]
+- ["C7fotogma4Post", "Dictionary"]
+- ["C7fotogma4Post", "Int"]
+- ["C7fotogma4Post", "String"]
+- !private ["C7fotogma4Post", "_imageUrl"]
+- !private ["C7fotogma4Post", "_likes"]
+- !private ["C7fotogma4Post", "_postDescription"]
+- !private ["C7fotogma4Post", "_postKey"]
+- !private ["C7fotogma4Post", "_username"]
+- ["C7fotogma4Post", "deinit"]
+- ["C7fotogma4Post", "imageUrl"]
+- ["C7fotogma4Post", "init"]
+- ["C7fotogma4Post", "likes"]
+- ["C7fotogma4Post", "postDescription"]
+- ["C7fotogma4Post", "username"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
+- !private ["PSs12_Reflectable", "Index"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "subscript"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSs14CollectionType"
+- "PSs28CustomDebugStringConvertible"
+- !private "PSs23CustomStringConvertible"
+- !private "VSs10Dictionary"
+- !private "PSs28DictionaryLiteralConvertible"
+- !private "PSs13GeneratorType"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- "PSs21NilLiteralConvertible"
+- "Sq"
+- "C7fotogma4Post"
+- !private "PSs12SequenceType"
+- !private "VSs5Slice"
+- !private "PSs21_ObjectiveCBridgeable"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FirebaseServerValue.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FTransactionResult.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FMutableData.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FirebaseApp.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FQuery.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FEventType.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FDataSnapshot.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FConfig.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FAuthType.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FAuthData.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase-umbrella.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Modules/module.modulemap"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFURL.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFTask.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/Bolts.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Modules/module.modulemap"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "88ddce5eacafee2a33b5e97bdb36ba5c"

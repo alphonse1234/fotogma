@@ -1,0 +1,1183 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C7fotogma14ViewController"
+provides-member:
+- ["C7fotogma14ViewController", ""]
+provides-dynamic-lookup:
+- "emailField"
+- "touchesBegan"
+- "showErrorAlert"
+- "resignFirstResponder"
+- "viewDidAppear"
+- "attempLogin"
+- "viewDidLoad"
+- "passwordField"
+- "textFieldShouldReturn"
+- "fbBtnPressed"
+depends-top-level:
+- "UIButton"
+- "LoginTextFieldView"
+- !private "NSUserDefaults"
+- "UIViewController"
+- !private "STATUS_ACCOUNT_NONEXIST"
+- !private "NSError"
+- !private "print"
+- !private "UIAlertAction"
+- !private "Void"
+- !private "FBSDKAccessToken"
+- "UITouch"
+- !private "BooleanLiteralType"
+- "UITextFieldDelegate"
+- !private "KEY_UID"
+- !private "UIAlertController"
+- "Set"
+- "UITextField"
+- !private "FBSDKLoginManagerLoginResult"
+- !private "DataService"
+- !private "!="
+- "UIEvent"
+- "ViewController"
+- !private "=="
+- "String"
+- "Dictionary"
+- !private "Array"
+- !private "SEGUE_LOGGED_IN"
+- "Bool"
+- !private "FBSDKLoginManager"
+depends-member:
+- !private ["PSs9AnyObject", "DataService"]
+- !private ["PSs9AnyObject", "FBSDKAccessToken"]
+- !private ["PSs9AnyObject", "FBSDKLoginManager"]
+- !private ["PSs9AnyObject", "KEY_UID"]
+- !private ["PSs9AnyObject", "NSUserDefaults"]
+- !private ["PSs9AnyObject", "REF_BASE"]
+- !private ["PSs9AnyObject", "SEGUE_LOGGED_IN"]
+- !private ["PSs9AnyObject", "STATUS_ACCOUNT_NONEXIST"]
+- !private ["PSs9AnyObject", "UIAlertAction"]
+- !private ["PSs9AnyObject", "UIAlertController"]
+- !private ["PSs9AnyObject", "addAction"]
+- ["PSs9AnyObject", "attempLogin"]
+- !private ["PSs9AnyObject", "authUser"]
+- !private ["PSs9AnyObject", "authWithOAuthProvider"]
+- !private ["PSs9AnyObject", "code"]
+- !private ["PSs9AnyObject", "createFirebaseUser"]
+- !private ["PSs9AnyObject", "createUser"]
+- !private ["PSs9AnyObject", "currentAccessToken"]
+- !private ["PSs9AnyObject", "deinit"]
+- !private ["PSs9AnyObject", "ds"]
+- ["PSs9AnyObject", "emailField"]
+- ["PSs9AnyObject", "fbBtnPressed"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "logInWithReadPermissions"]
+- ["PSs9AnyObject", "passwordField"]
+- !private ["PSs9AnyObject", "performSegueWithIdentifier"]
+- !private ["PSs9AnyObject", "presentViewController"]
+- !private ["PSs9AnyObject", "print"]
+- !private ["PSs9AnyObject", "provider"]
+- ["PSs9AnyObject", "resignFirstResponder"]
+- !private ["PSs9AnyObject", "setValue"]
+- ["PSs9AnyObject", "showErrorAlert"]
+- !private ["PSs9AnyObject", "standardUserDefaults"]
+- !private ["PSs9AnyObject", "text"]
+- ["PSs9AnyObject", "textField"]
+- ["PSs9AnyObject", "textFieldDidBeginEditing"]
+- ["PSs9AnyObject", "textFieldDidEndEditing"]
+- ["PSs9AnyObject", "textFieldShouldBeginEditing"]
+- ["PSs9AnyObject", "textFieldShouldClear"]
+- ["PSs9AnyObject", "textFieldShouldEndEditing"]
+- ["PSs9AnyObject", "textFieldShouldReturn"]
+- !private ["PSs9AnyObject", "tokenString"]
+- ["PSs9AnyObject", "touchesBegan"]
+- !private ["PSs9AnyObject", "uid"]
+- !private ["PSs9AnyObject", "valueForKey"]
+- ["PSs9AnyObject", "viewDidAppear"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["PSs23ArrayLiteralConvertible", "Element"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "DataService"]
+- !private ["PSs11CVarArgType", "FBSDKAccessToken"]
+- !private ["PSs11CVarArgType", "FBSDKLoginManager"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "KEY_UID"]
+- !private ["PSs11CVarArgType", "NSUserDefaults"]
+- !private ["PSs11CVarArgType", "SEGUE_LOGGED_IN"]
+- !private ["PSs11CVarArgType", "STATUS_ACCOUNT_NONEXIST"]
+- !private ["PSs11CVarArgType", "UIAlertAction"]
+- !private ["PSs11CVarArgType", "UIAlertController"]
+- !private ["PSs11CVarArgType", "addAction"]
+- ["PSs11CVarArgType", "attempLogin"]
+- !private ["PSs11CVarArgType", "authUser"]
+- !private ["PSs11CVarArgType", "authWithOAuthProvider"]
+- !private ["PSs11CVarArgType", "code"]
+- !private ["PSs11CVarArgType", "createUser"]
+- !private ["PSs11CVarArgType", "currentAccessToken"]
+- ["PSs11CVarArgType", "emailField"]
+- ["PSs11CVarArgType", "fbBtnPressed"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "logInWithReadPermissions"]
+- ["PSs11CVarArgType", "passwordField"]
+- !private ["PSs11CVarArgType", "performSegueWithIdentifier"]
+- !private ["PSs11CVarArgType", "presentViewController"]
+- !private ["PSs11CVarArgType", "print"]
+- !private ["PSs11CVarArgType", "provider"]
+- ["PSs11CVarArgType", "resignFirstResponder"]
+- !private ["PSs11CVarArgType", "setValue"]
+- ["PSs11CVarArgType", "showErrorAlert"]
+- !private ["PSs11CVarArgType", "standardUserDefaults"]
+- !private ["PSs11CVarArgType", "text"]
+- ["PSs11CVarArgType", "textField"]
+- ["PSs11CVarArgType", "textFieldDidBeginEditing"]
+- ["PSs11CVarArgType", "textFieldDidEndEditing"]
+- ["PSs11CVarArgType", "textFieldShouldBeginEditing"]
+- ["PSs11CVarArgType", "textFieldShouldClear"]
+- ["PSs11CVarArgType", "textFieldShouldEndEditing"]
+- ["PSs11CVarArgType", "textFieldShouldReturn"]
+- !private ["PSs11CVarArgType", "tokenString"]
+- ["PSs11CVarArgType", "touchesBegan"]
+- !private ["PSs11CVarArgType", "uid"]
+- !private ["PSs11CVarArgType", "valueForKey"]
+- ["PSs11CVarArgType", "viewDidAppear"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs14CollectionType", "Element"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "Key"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "Value"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "_DisabledRangeIndex"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "Element"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "Key"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "Value"]
+- !private ["PSs28CustomDebugStringConvertible", "_Element"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "DataService"]
+- !private ["PSs23CustomStringConvertible", "Element"]
+- !private ["PSs23CustomStringConvertible", "FBSDKAccessToken"]
+- !private ["PSs23CustomStringConvertible", "FBSDKLoginManager"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "KEY_UID"]
+- !private ["PSs23CustomStringConvertible", "Key"]
+- !private ["PSs23CustomStringConvertible", "NSUserDefaults"]
+- !private ["PSs23CustomStringConvertible", "SEGUE_LOGGED_IN"]
+- !private ["PSs23CustomStringConvertible", "STATUS_ACCOUNT_NONEXIST"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "UIAlertAction"]
+- !private ["PSs23CustomStringConvertible", "UIAlertController"]
+- !private ["PSs23CustomStringConvertible", "Value"]
+- !private ["PSs23CustomStringConvertible", "_Element"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "addAction"]
+- ["PSs23CustomStringConvertible", "attempLogin"]
+- !private ["PSs23CustomStringConvertible", "authUser"]
+- !private ["PSs23CustomStringConvertible", "authWithOAuthProvider"]
+- !private ["PSs23CustomStringConvertible", "code"]
+- !private ["PSs23CustomStringConvertible", "createUser"]
+- !private ["PSs23CustomStringConvertible", "currentAccessToken"]
+- ["PSs23CustomStringConvertible", "emailField"]
+- ["PSs23CustomStringConvertible", "fbBtnPressed"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "logInWithReadPermissions"]
+- ["PSs23CustomStringConvertible", "passwordField"]
+- !private ["PSs23CustomStringConvertible", "performSegueWithIdentifier"]
+- !private ["PSs23CustomStringConvertible", "presentViewController"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- !private ["PSs23CustomStringConvertible", "provider"]
+- ["PSs23CustomStringConvertible", "resignFirstResponder"]
+- !private ["PSs23CustomStringConvertible", "setValue"]
+- ["PSs23CustomStringConvertible", "showErrorAlert"]
+- !private ["PSs23CustomStringConvertible", "standardUserDefaults"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- ["PSs23CustomStringConvertible", "textField"]
+- ["PSs23CustomStringConvertible", "textFieldDidBeginEditing"]
+- ["PSs23CustomStringConvertible", "textFieldDidEndEditing"]
+- ["PSs23CustomStringConvertible", "textFieldShouldBeginEditing"]
+- ["PSs23CustomStringConvertible", "textFieldShouldClear"]
+- ["PSs23CustomStringConvertible", "textFieldShouldEndEditing"]
+- ["PSs23CustomStringConvertible", "textFieldShouldReturn"]
+- !private ["PSs23CustomStringConvertible", "tokenString"]
+- ["PSs23CustomStringConvertible", "touchesBegan"]
+- !private ["PSs23CustomStringConvertible", "uid"]
+- !private ["PSs23CustomStringConvertible", "valueForKey"]
+- ["PSs23CustomStringConvertible", "viewDidAppear"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["C7fotogma11DataService", "REF_BASE"]
+- !private ["C7fotogma11DataService", "createFirebaseUser"]
+- !private ["C7fotogma11DataService", "ds"]
+- !private ["VSs10Dictionary", "Generator"]
+- !private ["VSs10Dictionary", "Index"]
+- !private ["VSs10Dictionary", "Key"]
+- !private ["VSs10Dictionary", "SubSequence"]
+- !private ["VSs10Dictionary", "Value"]
+- !private ["VSs10Dictionary", "_Element"]
+- !private ["VSs10Dictionary", "deinit"]
+- !private ["VSs10Dictionary", "subscript"]
+- !private ["VSs15DictionaryIndex", "Distance"]
+- !private ["VSs15DictionaryIndex", "_DisabledRangeIndex"]
+- !private ["PSs28DictionaryLiteralConvertible", "Generator"]
+- !private ["PSs28DictionaryLiteralConvertible", "Index"]
+- !private ["PSs28DictionaryLiteralConvertible", "Key"]
+- !private ["PSs28DictionaryLiteralConvertible", "SubSequence"]
+- !private ["PSs28DictionaryLiteralConvertible", "Value"]
+- !private ["PSs28DictionaryLiteralConvertible", "_Element"]
+- !private ["PSs28DictionaryLiteralConvertible", "subscript"]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "Alert"]
+- !private ["PSs9Equatable", "DataService"]
+- !private ["PSs9Equatable", "Default"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "FBSDKAccessToken"]
+- !private ["PSs9Equatable", "FBSDKLoginManager"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "KEY_UID"]
+- !private ["PSs9Equatable", "NSUserDefaults"]
+- !private ["PSs9Equatable", "SEGUE_LOGGED_IN"]
+- !private ["PSs9Equatable", "STATUS_ACCOUNT_NONEXIST"]
+- !private ["PSs9Equatable", "UIAlertAction"]
+- !private ["PSs9Equatable", "UIAlertController"]
+- !private ["PSs9Equatable", "_DisabledRangeIndex"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "addAction"]
+- ["PSs9Equatable", "attempLogin"]
+- !private ["PSs9Equatable", "authUser"]
+- !private ["PSs9Equatable", "authWithOAuthProvider"]
+- !private ["PSs9Equatable", "code"]
+- !private ["PSs9Equatable", "createUser"]
+- !private ["PSs9Equatable", "currentAccessToken"]
+- ["PSs9Equatable", "emailField"]
+- ["PSs9Equatable", "fbBtnPressed"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "logInWithReadPermissions"]
+- ["PSs9Equatable", "passwordField"]
+- !private ["PSs9Equatable", "performSegueWithIdentifier"]
+- !private ["PSs9Equatable", "presentViewController"]
+- !private ["PSs9Equatable", "print"]
+- !private ["PSs9Equatable", "provider"]
+- ["PSs9Equatable", "resignFirstResponder"]
+- !private ["PSs9Equatable", "setValue"]
+- ["PSs9Equatable", "showErrorAlert"]
+- !private ["PSs9Equatable", "standardUserDefaults"]
+- !private ["PSs9Equatable", "text"]
+- ["PSs9Equatable", "textField"]
+- ["PSs9Equatable", "textFieldDidBeginEditing"]
+- ["PSs9Equatable", "textFieldDidEndEditing"]
+- ["PSs9Equatable", "textFieldShouldBeginEditing"]
+- ["PSs9Equatable", "textFieldShouldClear"]
+- ["PSs9Equatable", "textFieldShouldEndEditing"]
+- ["PSs9Equatable", "textFieldShouldReturn"]
+- !private ["PSs9Equatable", "tokenString"]
+- ["PSs9Equatable", "touchesBegan"]
+- !private ["PSs9Equatable", "uid"]
+- !private ["PSs9Equatable", "valueForKey"]
+- ["PSs9Equatable", "viewDidAppear"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["PSs9ErrorType", "code"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["CSo9FAuthData", "provider"]
+- !private ["CSo9FAuthData", "uid"]
+- !private ["CSo16FBSDKAccessToken", "currentAccessToken"]
+- !private ["CSo16FBSDKAccessToken", "tokenString"]
+- !private ["PSo12FBSDKCopying", "currentAccessToken"]
+- !private ["PSo12FBSDKCopying", "tokenString"]
+- !private ["CSo17FBSDKLoginManager", "init"]
+- !private ["CSo17FBSDKLoginManager", "logInWithReadPermissions"]
+- !private ["CSo6FQuery", "authUser"]
+- !private ["CSo6FQuery", "authWithOAuthProvider"]
+- !private ["CSo6FQuery", "createUser"]
+- !private ["CSo8Firebase", "authUser"]
+- !private ["CSo8Firebase", "authWithOAuthProvider"]
+- !private ["CSo8Firebase", "createUser"]
+- !private ["Sf", "deinit"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs16ForwardIndexType", "_DisabledRangeIndex"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "Alert"]
+- !private ["PSs8Hashable", "DataService"]
+- !private ["PSs8Hashable", "Default"]
+- !private ["PSs8Hashable", "FBSDKAccessToken"]
+- !private ["PSs8Hashable", "FBSDKLoginManager"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "KEY_UID"]
+- !private ["PSs8Hashable", "NSUserDefaults"]
+- !private ["PSs8Hashable", "SEGUE_LOGGED_IN"]
+- !private ["PSs8Hashable", "STATUS_ACCOUNT_NONEXIST"]
+- !private ["PSs8Hashable", "UIAlertAction"]
+- !private ["PSs8Hashable", "UIAlertController"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "addAction"]
+- ["PSs8Hashable", "attempLogin"]
+- !private ["PSs8Hashable", "authUser"]
+- !private ["PSs8Hashable", "authWithOAuthProvider"]
+- !private ["PSs8Hashable", "code"]
+- !private ["PSs8Hashable", "createUser"]
+- !private ["PSs8Hashable", "currentAccessToken"]
+- ["PSs8Hashable", "emailField"]
+- ["PSs8Hashable", "fbBtnPressed"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "logInWithReadPermissions"]
+- ["PSs8Hashable", "passwordField"]
+- !private ["PSs8Hashable", "performSegueWithIdentifier"]
+- !private ["PSs8Hashable", "presentViewController"]
+- !private ["PSs8Hashable", "print"]
+- !private ["PSs8Hashable", "provider"]
+- ["PSs8Hashable", "resignFirstResponder"]
+- !private ["PSs8Hashable", "setValue"]
+- ["PSs8Hashable", "showErrorAlert"]
+- !private ["PSs8Hashable", "standardUserDefaults"]
+- !private ["PSs8Hashable", "text"]
+- ["PSs8Hashable", "textField"]
+- ["PSs8Hashable", "textFieldDidBeginEditing"]
+- ["PSs8Hashable", "textFieldDidEndEditing"]
+- ["PSs8Hashable", "textFieldShouldBeginEditing"]
+- ["PSs8Hashable", "textFieldShouldClear"]
+- ["PSs8Hashable", "textFieldShouldEndEditing"]
+- ["PSs8Hashable", "textFieldShouldReturn"]
+- !private ["PSs8Hashable", "tokenString"]
+- ["PSs8Hashable", "touchesBegan"]
+- !private ["PSs8Hashable", "uid"]
+- !private ["PSs8Hashable", "valueForKey"]
+- ["PSs8Hashable", "viewDidAppear"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["PSs9Indexable", "Element"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "Key"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "Value"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["C7fotogma18LoginTextFieldView", "resignFirstResponder"]
+- !private ["C7fotogma18LoginTextFieldView", "text"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSs21MutableCollectionType", "Element"]
+- !private ["PSs16MutableIndexable", "Element"]
+- !private ["PSs16MutableSliceable", "Element"]
+- !private ["PSo8NSCoding", "DataService"]
+- !private ["PSo8NSCoding", "FBSDKAccessToken"]
+- !private ["PSo8NSCoding", "FBSDKLoginManager"]
+- !private ["PSo8NSCoding", "KEY_UID"]
+- !private ["PSo8NSCoding", "NSUserDefaults"]
+- !private ["PSo8NSCoding", "SEGUE_LOGGED_IN"]
+- !private ["PSo8NSCoding", "STATUS_ACCOUNT_NONEXIST"]
+- !private ["PSo8NSCoding", "UIAlertAction"]
+- !private ["PSo8NSCoding", "UIAlertController"]
+- !private ["PSo8NSCoding", "addAction"]
+- ["PSo8NSCoding", "attempLogin"]
+- !private ["PSo8NSCoding", "code"]
+- !private ["PSo8NSCoding", "currentAccessToken"]
+- ["PSo8NSCoding", "emailField"]
+- ["PSo8NSCoding", "fbBtnPressed"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "passwordField"]
+- !private ["PSo8NSCoding", "performSegueWithIdentifier"]
+- !private ["PSo8NSCoding", "presentViewController"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "resignFirstResponder"]
+- ["PSo8NSCoding", "showErrorAlert"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "textField"]
+- ["PSo8NSCoding", "textFieldDidBeginEditing"]
+- ["PSo8NSCoding", "textFieldDidEndEditing"]
+- ["PSo8NSCoding", "textFieldShouldBeginEditing"]
+- ["PSo8NSCoding", "textFieldShouldClear"]
+- ["PSo8NSCoding", "textFieldShouldEndEditing"]
+- ["PSo8NSCoding", "textFieldShouldReturn"]
+- !private ["PSo8NSCoding", "tokenString"]
+- ["PSo8NSCoding", "touchesBegan"]
+- ["PSo8NSCoding", "viewDidAppear"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "code"]
+- !private ["PSo9NSCopying", "currentAccessToken"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "tokenString"]
+- !private ["CSo7NSError", "code"]
+- !private ["CSo7NSError", "deinit"]
+- !private ["PSo26NSExtensionRequestHandling", "DataService"]
+- !private ["PSo26NSExtensionRequestHandling", "FBSDKAccessToken"]
+- !private ["PSo26NSExtensionRequestHandling", "FBSDKLoginManager"]
+- !private ["PSo26NSExtensionRequestHandling", "KEY_UID"]
+- !private ["PSo26NSExtensionRequestHandling", "NSUserDefaults"]
+- !private ["PSo26NSExtensionRequestHandling", "SEGUE_LOGGED_IN"]
+- !private ["PSo26NSExtensionRequestHandling", "STATUS_ACCOUNT_NONEXIST"]
+- !private ["PSo26NSExtensionRequestHandling", "UIAlertAction"]
+- !private ["PSo26NSExtensionRequestHandling", "UIAlertController"]
+- !private ["PSo26NSExtensionRequestHandling", "addAction"]
+- ["PSo26NSExtensionRequestHandling", "attempLogin"]
+- ["PSo26NSExtensionRequestHandling", "emailField"]
+- ["PSo26NSExtensionRequestHandling", "fbBtnPressed"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "passwordField"]
+- !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
+- !private ["PSo26NSExtensionRequestHandling", "presentViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "resignFirstResponder"]
+- ["PSo26NSExtensionRequestHandling", "showErrorAlert"]
+- ["PSo26NSExtensionRequestHandling", "textField"]
+- ["PSo26NSExtensionRequestHandling", "textFieldDidBeginEditing"]
+- ["PSo26NSExtensionRequestHandling", "textFieldDidEndEditing"]
+- ["PSo26NSExtensionRequestHandling", "textFieldShouldBeginEditing"]
+- ["PSo26NSExtensionRequestHandling", "textFieldShouldClear"]
+- ["PSo26NSExtensionRequestHandling", "textFieldShouldEndEditing"]
+- ["PSo26NSExtensionRequestHandling", "textFieldShouldReturn"]
+- ["PSo26NSExtensionRequestHandling", "touchesBegan"]
+- ["PSo26NSExtensionRequestHandling", "viewDidAppear"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "DataService"]
+- !private ["CSo8NSObject", "FBSDKAccessToken"]
+- !private ["CSo8NSObject", "FBSDKLoginManager"]
+- !private ["CSo8NSObject", "FBSDKLoginManagerLoginResult"]
+- !private ["CSo8NSObject", "KEY_UID"]
+- ["CSo8NSObject", "LoginTextFieldView"]
+- !private ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "NSUserDefaults"]
+- !private ["CSo8NSObject", "SEGUE_LOGGED_IN"]
+- !private ["CSo8NSObject", "STATUS_ACCOUNT_NONEXIST"]
+- ["CSo8NSObject", "Set"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIAlertAction"]
+- !private ["CSo8NSObject", "UIAlertController"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UIEvent"]
+- ["CSo8NSObject", "UITextField"]
+- ["CSo8NSObject", "UITouch"]
+- !private ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addAction"]
+- ["CSo8NSObject", "attempLogin"]
+- !private ["CSo8NSObject", "authUser"]
+- !private ["CSo8NSObject", "authWithOAuthProvider"]
+- !private ["CSo8NSObject", "code"]
+- !private ["CSo8NSObject", "createUser"]
+- !private ["CSo8NSObject", "currentAccessToken"]
+- !private ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "emailField"]
+- ["CSo8NSObject", "fbBtnPressed"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "logInWithReadPermissions"]
+- ["CSo8NSObject", "passwordField"]
+- !private ["CSo8NSObject", "performSegueWithIdentifier"]
+- !private ["CSo8NSObject", "presentViewController"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "provider"]
+- ["CSo8NSObject", "resignFirstResponder"]
+- !private ["CSo8NSObject", "setValue"]
+- ["CSo8NSObject", "showErrorAlert"]
+- !private ["CSo8NSObject", "standardUserDefaults"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "textField"]
+- ["CSo8NSObject", "textFieldDidBeginEditing"]
+- ["CSo8NSObject", "textFieldDidEndEditing"]
+- ["CSo8NSObject", "textFieldShouldBeginEditing"]
+- ["CSo8NSObject", "textFieldShouldClear"]
+- ["CSo8NSObject", "textFieldShouldEndEditing"]
+- ["CSo8NSObject", "textFieldShouldReturn"]
+- !private ["CSo8NSObject", "tokenString"]
+- ["CSo8NSObject", "touchesBegan"]
+- !private ["CSo8NSObject", "uid"]
+- !private ["CSo8NSObject", "valueForKey"]
+- ["CSo8NSObject", "viewDidAppear"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "DataService"]
+- !private ["PSo16NSObjectProtocol", "FBSDKAccessToken"]
+- !private ["PSo16NSObjectProtocol", "FBSDKLoginManager"]
+- !private ["PSo16NSObjectProtocol", "KEY_UID"]
+- !private ["PSo16NSObjectProtocol", "NSUserDefaults"]
+- !private ["PSo16NSObjectProtocol", "SEGUE_LOGGED_IN"]
+- !private ["PSo16NSObjectProtocol", "STATUS_ACCOUNT_NONEXIST"]
+- !private ["PSo16NSObjectProtocol", "UIAlertAction"]
+- !private ["PSo16NSObjectProtocol", "UIAlertController"]
+- !private ["PSo16NSObjectProtocol", "addAction"]
+- ["PSo16NSObjectProtocol", "attempLogin"]
+- !private ["PSo16NSObjectProtocol", "authUser"]
+- !private ["PSo16NSObjectProtocol", "authWithOAuthProvider"]
+- !private ["PSo16NSObjectProtocol", "code"]
+- !private ["PSo16NSObjectProtocol", "createUser"]
+- !private ["PSo16NSObjectProtocol", "currentAccessToken"]
+- ["PSo16NSObjectProtocol", "emailField"]
+- ["PSo16NSObjectProtocol", "fbBtnPressed"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "logInWithReadPermissions"]
+- ["PSo16NSObjectProtocol", "passwordField"]
+- !private ["PSo16NSObjectProtocol", "performSegueWithIdentifier"]
+- !private ["PSo16NSObjectProtocol", "presentViewController"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "provider"]
+- ["PSo16NSObjectProtocol", "resignFirstResponder"]
+- !private ["PSo16NSObjectProtocol", "setValue"]
+- ["PSo16NSObjectProtocol", "showErrorAlert"]
+- !private ["PSo16NSObjectProtocol", "standardUserDefaults"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "textField"]
+- ["PSo16NSObjectProtocol", "textFieldDidBeginEditing"]
+- ["PSo16NSObjectProtocol", "textFieldDidEndEditing"]
+- ["PSo16NSObjectProtocol", "textFieldShouldBeginEditing"]
+- ["PSo16NSObjectProtocol", "textFieldShouldClear"]
+- ["PSo16NSObjectProtocol", "textFieldShouldEndEditing"]
+- ["PSo16NSObjectProtocol", "textFieldShouldReturn"]
+- !private ["PSo16NSObjectProtocol", "tokenString"]
+- ["PSo16NSObjectProtocol", "touchesBegan"]
+- !private ["PSo16NSObjectProtocol", "uid"]
+- !private ["PSo16NSObjectProtocol", "valueForKey"]
+- ["PSo16NSObjectProtocol", "viewDidAppear"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "code"]
+- !private ["PSo14NSSecureCoding", "currentAccessToken"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "tokenString"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo14NSUserDefaults", "setValue"]
+- !private ["CSo14NSUserDefaults", "standardUserDefaults"]
+- !private ["CSo14NSUserDefaults", "valueForKey"]
+- ["PSs21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs30RangeReplaceableCollectionType", "Element"]
+- !private ["PSs16RawRepresentable", "Alert"]
+- !private ["PSs16RawRepresentable", "Default"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "Key"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "Value"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "resignFirstResponder"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["CSo13UIAlertAction", "init"]
+- !private ["OSC18UIAlertActionStyle", "Default"]
+- !private ["CSo17UIAlertController", "addAction"]
+- !private ["CSo17UIAlertController", "init"]
+- !private ["OSC22UIAlertControllerStyle", "Alert"]
+- !private ["PSo12UIAppearance", "resignFirstResponder"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "DataService"]
+- !private ["PSo21UIAppearanceContainer", "FBSDKAccessToken"]
+- !private ["PSo21UIAppearanceContainer", "FBSDKLoginManager"]
+- !private ["PSo21UIAppearanceContainer", "KEY_UID"]
+- !private ["PSo21UIAppearanceContainer", "NSUserDefaults"]
+- !private ["PSo21UIAppearanceContainer", "SEGUE_LOGGED_IN"]
+- !private ["PSo21UIAppearanceContainer", "STATUS_ACCOUNT_NONEXIST"]
+- !private ["PSo21UIAppearanceContainer", "UIAlertAction"]
+- !private ["PSo21UIAppearanceContainer", "UIAlertController"]
+- !private ["PSo21UIAppearanceContainer", "addAction"]
+- ["PSo21UIAppearanceContainer", "attempLogin"]
+- ["PSo21UIAppearanceContainer", "emailField"]
+- ["PSo21UIAppearanceContainer", "fbBtnPressed"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "passwordField"]
+- !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
+- !private ["PSo21UIAppearanceContainer", "presentViewController"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "resignFirstResponder"]
+- ["PSo21UIAppearanceContainer", "showErrorAlert"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "textField"]
+- ["PSo21UIAppearanceContainer", "textFieldDidBeginEditing"]
+- ["PSo21UIAppearanceContainer", "textFieldDidEndEditing"]
+- ["PSo21UIAppearanceContainer", "textFieldShouldBeginEditing"]
+- ["PSo21UIAppearanceContainer", "textFieldShouldClear"]
+- ["PSo21UIAppearanceContainer", "textFieldShouldEndEditing"]
+- ["PSo21UIAppearanceContainer", "textFieldShouldReturn"]
+- ["PSo21UIAppearanceContainer", "touchesBegan"]
+- ["PSo21UIAppearanceContainer", "viewDidAppear"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "DataService"]
+- !private ["PSo18UIContentContainer", "FBSDKAccessToken"]
+- !private ["PSo18UIContentContainer", "FBSDKLoginManager"]
+- !private ["PSo18UIContentContainer", "KEY_UID"]
+- !private ["PSo18UIContentContainer", "NSUserDefaults"]
+- !private ["PSo18UIContentContainer", "SEGUE_LOGGED_IN"]
+- !private ["PSo18UIContentContainer", "STATUS_ACCOUNT_NONEXIST"]
+- !private ["PSo18UIContentContainer", "UIAlertAction"]
+- !private ["PSo18UIContentContainer", "UIAlertController"]
+- !private ["PSo18UIContentContainer", "addAction"]
+- ["PSo18UIContentContainer", "attempLogin"]
+- ["PSo18UIContentContainer", "emailField"]
+- ["PSo18UIContentContainer", "fbBtnPressed"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "passwordField"]
+- !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
+- !private ["PSo18UIContentContainer", "presentViewController"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "resignFirstResponder"]
+- ["PSo18UIContentContainer", "showErrorAlert"]
+- ["PSo18UIContentContainer", "textField"]
+- ["PSo18UIContentContainer", "textFieldDidBeginEditing"]
+- ["PSo18UIContentContainer", "textFieldDidEndEditing"]
+- ["PSo18UIContentContainer", "textFieldShouldBeginEditing"]
+- ["PSo18UIContentContainer", "textFieldShouldClear"]
+- ["PSo18UIContentContainer", "textFieldShouldEndEditing"]
+- ["PSo18UIContentContainer", "textFieldShouldReturn"]
+- ["PSo18UIContentContainer", "touchesBegan"]
+- ["PSo18UIContentContainer", "viewDidAppear"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "resignFirstResponder"]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "resignFirstResponder"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "resignFirstResponder"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "DataService"]
+- !private ["PSo18UIFocusEnvironment", "FBSDKAccessToken"]
+- !private ["PSo18UIFocusEnvironment", "FBSDKLoginManager"]
+- !private ["PSo18UIFocusEnvironment", "KEY_UID"]
+- !private ["PSo18UIFocusEnvironment", "NSUserDefaults"]
+- !private ["PSo18UIFocusEnvironment", "SEGUE_LOGGED_IN"]
+- !private ["PSo18UIFocusEnvironment", "STATUS_ACCOUNT_NONEXIST"]
+- !private ["PSo18UIFocusEnvironment", "UIAlertAction"]
+- !private ["PSo18UIFocusEnvironment", "UIAlertController"]
+- !private ["PSo18UIFocusEnvironment", "addAction"]
+- ["PSo18UIFocusEnvironment", "attempLogin"]
+- ["PSo18UIFocusEnvironment", "emailField"]
+- ["PSo18UIFocusEnvironment", "fbBtnPressed"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "passwordField"]
+- !private ["PSo18UIFocusEnvironment", "performSegueWithIdentifier"]
+- !private ["PSo18UIFocusEnvironment", "presentViewController"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "resignFirstResponder"]
+- ["PSo18UIFocusEnvironment", "showErrorAlert"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "textField"]
+- ["PSo18UIFocusEnvironment", "textFieldDidBeginEditing"]
+- ["PSo18UIFocusEnvironment", "textFieldDidEndEditing"]
+- ["PSo18UIFocusEnvironment", "textFieldShouldBeginEditing"]
+- ["PSo18UIFocusEnvironment", "textFieldShouldClear"]
+- ["PSo18UIFocusEnvironment", "textFieldShouldEndEditing"]
+- ["PSo18UIFocusEnvironment", "textFieldShouldReturn"]
+- ["PSo18UIFocusEnvironment", "touchesBegan"]
+- ["PSo18UIFocusEnvironment", "viewDidAppear"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo10UIKeyInput", "resignFirstResponder"]
+- !private ["PSo10UIKeyInput", "text"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "DataService"]
+- !private ["CSo11UIResponder", "FBSDKAccessToken"]
+- !private ["CSo11UIResponder", "FBSDKLoginManager"]
+- !private ["CSo11UIResponder", "FBSDKLoginManagerLoginResult"]
+- !private ["CSo11UIResponder", "KEY_UID"]
+- ["CSo11UIResponder", "LoginTextFieldView"]
+- !private ["CSo11UIResponder", "NSError"]
+- !private ["CSo11UIResponder", "NSUserDefaults"]
+- !private ["CSo11UIResponder", "SEGUE_LOGGED_IN"]
+- !private ["CSo11UIResponder", "STATUS_ACCOUNT_NONEXIST"]
+- ["CSo11UIResponder", "Set"]
+- ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIAlertAction"]
+- !private ["CSo11UIResponder", "UIAlertController"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "UIEvent"]
+- ["CSo11UIResponder", "UITextField"]
+- ["CSo11UIResponder", "UITouch"]
+- !private ["CSo11UIResponder", "Void"]
+- !private ["CSo11UIResponder", "addAction"]
+- ["CSo11UIResponder", "attempLogin"]
+- ["CSo11UIResponder", "emailField"]
+- ["CSo11UIResponder", "fbBtnPressed"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "passwordField"]
+- !private ["CSo11UIResponder", "performSegueWithIdentifier"]
+- !private ["CSo11UIResponder", "presentViewController"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "resignFirstResponder"]
+- ["CSo11UIResponder", "showErrorAlert"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "textField"]
+- ["CSo11UIResponder", "textFieldDidBeginEditing"]
+- ["CSo11UIResponder", "textFieldDidEndEditing"]
+- ["CSo11UIResponder", "textFieldShouldBeginEditing"]
+- ["CSo11UIResponder", "textFieldShouldClear"]
+- ["CSo11UIResponder", "textFieldShouldEndEditing"]
+- ["CSo11UIResponder", "textFieldShouldReturn"]
+- ["CSo11UIResponder", "touchesBegan"]
+- ["CSo11UIResponder", "viewDidAppear"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "DataService"]
+- !private ["PSo16UIStateRestoring", "FBSDKAccessToken"]
+- !private ["PSo16UIStateRestoring", "FBSDKLoginManager"]
+- !private ["PSo16UIStateRestoring", "KEY_UID"]
+- !private ["PSo16UIStateRestoring", "NSUserDefaults"]
+- !private ["PSo16UIStateRestoring", "SEGUE_LOGGED_IN"]
+- !private ["PSo16UIStateRestoring", "STATUS_ACCOUNT_NONEXIST"]
+- !private ["PSo16UIStateRestoring", "UIAlertAction"]
+- !private ["PSo16UIStateRestoring", "UIAlertController"]
+- !private ["PSo16UIStateRestoring", "addAction"]
+- ["PSo16UIStateRestoring", "attempLogin"]
+- ["PSo16UIStateRestoring", "emailField"]
+- ["PSo16UIStateRestoring", "fbBtnPressed"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "passwordField"]
+- !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
+- !private ["PSo16UIStateRestoring", "presentViewController"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "resignFirstResponder"]
+- ["PSo16UIStateRestoring", "showErrorAlert"]
+- ["PSo16UIStateRestoring", "textField"]
+- ["PSo16UIStateRestoring", "textFieldDidBeginEditing"]
+- ["PSo16UIStateRestoring", "textFieldDidEndEditing"]
+- ["PSo16UIStateRestoring", "textFieldShouldBeginEditing"]
+- ["PSo16UIStateRestoring", "textFieldShouldClear"]
+- ["PSo16UIStateRestoring", "textFieldShouldEndEditing"]
+- ["PSo16UIStateRestoring", "textFieldShouldReturn"]
+- ["PSo16UIStateRestoring", "touchesBegan"]
+- ["PSo16UIStateRestoring", "viewDidAppear"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo11UITextField", "resignFirstResponder"]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo19UITextFieldDelegate", "DataService"]
+- !private ["PSo19UITextFieldDelegate", "FBSDKAccessToken"]
+- !private ["PSo19UITextFieldDelegate", "FBSDKLoginManager"]
+- !private ["PSo19UITextFieldDelegate", "KEY_UID"]
+- !private ["PSo19UITextFieldDelegate", "NSUserDefaults"]
+- !private ["PSo19UITextFieldDelegate", "SEGUE_LOGGED_IN"]
+- !private ["PSo19UITextFieldDelegate", "STATUS_ACCOUNT_NONEXIST"]
+- !private ["PSo19UITextFieldDelegate", "UIAlertAction"]
+- !private ["PSo19UITextFieldDelegate", "UIAlertController"]
+- !private ["PSo19UITextFieldDelegate", "emailField"]
+- !private ["PSo19UITextFieldDelegate", "passwordField"]
+- !private ["PSo19UITextFieldDelegate", "performSegueWithIdentifier"]
+- !private ["PSo19UITextFieldDelegate", "presentViewController"]
+- !private ["PSo19UITextFieldDelegate", "print"]
+- !private ["PSo19UITextFieldDelegate", "resignFirstResponder"]
+- !private ["PSo19UITextFieldDelegate", "showErrorAlert"]
+- ["PSo19UITextFieldDelegate", "textField"]
+- ["PSo19UITextFieldDelegate", "textFieldDidBeginEditing"]
+- ["PSo19UITextFieldDelegate", "textFieldDidEndEditing"]
+- ["PSo19UITextFieldDelegate", "textFieldShouldBeginEditing"]
+- ["PSo19UITextFieldDelegate", "textFieldShouldClear"]
+- ["PSo19UITextFieldDelegate", "textFieldShouldEndEditing"]
+- ["PSo19UITextFieldDelegate", "textFieldShouldReturn"]
+- ["PSo19UITextFieldDelegate", ""]
+- !private ["PSo11UITextInput", "resignFirstResponder"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "resignFirstResponder"]
+- !private ["PSo17UITextInputTraits", "text"]
+- !private ["PSo18UITraitEnvironment", "DataService"]
+- !private ["PSo18UITraitEnvironment", "FBSDKAccessToken"]
+- !private ["PSo18UITraitEnvironment", "FBSDKLoginManager"]
+- !private ["PSo18UITraitEnvironment", "KEY_UID"]
+- !private ["PSo18UITraitEnvironment", "NSUserDefaults"]
+- !private ["PSo18UITraitEnvironment", "SEGUE_LOGGED_IN"]
+- !private ["PSo18UITraitEnvironment", "STATUS_ACCOUNT_NONEXIST"]
+- !private ["PSo18UITraitEnvironment", "UIAlertAction"]
+- !private ["PSo18UITraitEnvironment", "UIAlertController"]
+- !private ["PSo18UITraitEnvironment", "addAction"]
+- ["PSo18UITraitEnvironment", "attempLogin"]
+- ["PSo18UITraitEnvironment", "emailField"]
+- ["PSo18UITraitEnvironment", "fbBtnPressed"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "passwordField"]
+- !private ["PSo18UITraitEnvironment", "performSegueWithIdentifier"]
+- !private ["PSo18UITraitEnvironment", "presentViewController"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "resignFirstResponder"]
+- ["PSo18UITraitEnvironment", "showErrorAlert"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "textField"]
+- ["PSo18UITraitEnvironment", "textFieldDidBeginEditing"]
+- ["PSo18UITraitEnvironment", "textFieldDidEndEditing"]
+- ["PSo18UITraitEnvironment", "textFieldShouldBeginEditing"]
+- ["PSo18UITraitEnvironment", "textFieldShouldClear"]
+- ["PSo18UITraitEnvironment", "textFieldShouldEndEditing"]
+- ["PSo18UITraitEnvironment", "textFieldShouldReturn"]
+- ["PSo18UITraitEnvironment", "touchesBegan"]
+- ["PSo18UITraitEnvironment", "viewDidAppear"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "resignFirstResponder"]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "Bool"]
+- !private ["CSo16UIViewController", "DataService"]
+- !private ["CSo16UIViewController", "FBSDKAccessToken"]
+- !private ["CSo16UIViewController", "FBSDKLoginManager"]
+- !private ["CSo16UIViewController", "FBSDKLoginManagerLoginResult"]
+- !private ["CSo16UIViewController", "KEY_UID"]
+- ["CSo16UIViewController", "LoginTextFieldView"]
+- !private ["CSo16UIViewController", "NSError"]
+- !private ["CSo16UIViewController", "NSUserDefaults"]
+- !private ["CSo16UIViewController", "SEGUE_LOGGED_IN"]
+- !private ["CSo16UIViewController", "STATUS_ACCOUNT_NONEXIST"]
+- ["CSo16UIViewController", "Set"]
+- ["CSo16UIViewController", "String"]
+- !private ["CSo16UIViewController", "UIAlertAction"]
+- !private ["CSo16UIViewController", "UIAlertController"]
+- ["CSo16UIViewController", "UIButton"]
+- ["CSo16UIViewController", "UIEvent"]
+- ["CSo16UIViewController", "UITextField"]
+- ["CSo16UIViewController", "UITouch"]
+- !private ["CSo16UIViewController", "Void"]
+- !private ["CSo16UIViewController", "addAction"]
+- ["CSo16UIViewController", "attempLogin"]
+- ["CSo16UIViewController", "emailField"]
+- ["CSo16UIViewController", "fbBtnPressed"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "passwordField"]
+- !private ["CSo16UIViewController", "performSegueWithIdentifier"]
+- !private ["CSo16UIViewController", "presentViewController"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "resignFirstResponder"]
+- ["CSo16UIViewController", "showErrorAlert"]
+- ["CSo16UIViewController", "textField"]
+- ["CSo16UIViewController", "textFieldDidBeginEditing"]
+- ["CSo16UIViewController", "textFieldDidEndEditing"]
+- ["CSo16UIViewController", "textFieldShouldBeginEditing"]
+- ["CSo16UIViewController", "textFieldShouldClear"]
+- ["CSo16UIViewController", "textFieldShouldEndEditing"]
+- ["CSo16UIViewController", "textFieldShouldReturn"]
+- ["CSo16UIViewController", "touchesBegan"]
+- ["CSo16UIViewController", "viewDidAppear"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["P9Alamofire20URLStringConvertible", "init"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- ["C7fotogma14ViewController", "Bool"]
+- !private ["C7fotogma14ViewController", "DataService"]
+- !private ["C7fotogma14ViewController", "FBSDKAccessToken"]
+- !private ["C7fotogma14ViewController", "FBSDKLoginManager"]
+- !private ["C7fotogma14ViewController", "FBSDKLoginManagerLoginResult"]
+- !private ["C7fotogma14ViewController", "KEY_UID"]
+- ["C7fotogma14ViewController", "LoginTextFieldView"]
+- !private ["C7fotogma14ViewController", "NSError"]
+- !private ["C7fotogma14ViewController", "NSUserDefaults"]
+- !private ["C7fotogma14ViewController", "SEGUE_LOGGED_IN"]
+- !private ["C7fotogma14ViewController", "STATUS_ACCOUNT_NONEXIST"]
+- ["C7fotogma14ViewController", "Set"]
+- ["C7fotogma14ViewController", "String"]
+- !private ["C7fotogma14ViewController", "UIAlertAction"]
+- !private ["C7fotogma14ViewController", "UIAlertController"]
+- ["C7fotogma14ViewController", "UIButton"]
+- ["C7fotogma14ViewController", "UIEvent"]
+- ["C7fotogma14ViewController", "UITextField"]
+- ["C7fotogma14ViewController", "UITouch"]
+- !private ["C7fotogma14ViewController", "Void"]
+- ["C7fotogma14ViewController", "attempLogin"]
+- ["C7fotogma14ViewController", "deinit"]
+- ["C7fotogma14ViewController", "emailField"]
+- ["C7fotogma14ViewController", "fbBtnPressed"]
+- ["C7fotogma14ViewController", "init"]
+- ["C7fotogma14ViewController", "passwordField"]
+- !private ["C7fotogma14ViewController", "performSegueWithIdentifier"]
+- !private ["C7fotogma14ViewController", "presentViewController"]
+- !private ["C7fotogma14ViewController", "print"]
+- ["C7fotogma14ViewController", "resignFirstResponder"]
+- ["C7fotogma14ViewController", "showErrorAlert"]
+- ["C7fotogma14ViewController", "textField"]
+- ["C7fotogma14ViewController", "textFieldDidBeginEditing"]
+- ["C7fotogma14ViewController", "textFieldDidEndEditing"]
+- ["C7fotogma14ViewController", "textFieldShouldBeginEditing"]
+- ["C7fotogma14ViewController", "textFieldShouldClear"]
+- ["C7fotogma14ViewController", "textFieldShouldEndEditing"]
+- ["C7fotogma14ViewController", "textFieldShouldReturn"]
+- ["C7fotogma14ViewController", "touchesBegan"]
+- ["C7fotogma14ViewController", "viewDidAppear"]
+- ["C7fotogma14ViewController", "viewDidLoad"]
+- !private ["PSs10_ArrayType", "Element"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs24_DestructorSafeContainer", "Element"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs14_Incrementable", "_DisabledRangeIndex"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Key"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "Value"]
+- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Element"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Key"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "Value"]
+- !private ["PSs12_Reflectable", "_Element"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "resignFirstResponder"]
+- !private ["PSs12_Reflectable", "subscript"]
+- !private ["PSs12_Reflectable", "text"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "C7fotogma11DataService"
+- !private "VSs10Dictionary"
+- !private "VSs15DictionaryIndex"
+- !private "PSs28DictionaryLiteralConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs9ErrorType"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "CSo9FAuthData"
+- !private "CSo16FBSDKAccessToken"
+- !private "PSo12FBSDKCopying"
+- !private "CSo17FBSDKLoginManager"
+- !private "CSo6FQuery"
+- !private "CSo8Firebase"
+- !private "Sf"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "C7fotogma18LoginTextFieldView"
+- !private "PSs14MirrorPathType"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo7NSError"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo14NSUserDefaults"
+- "PSs21NilLiteralConvertible"
+- "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs16RawRepresentable"
+- !private "PSs12SequenceType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "VSs5Slice"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo13UIAlertAction"
+- !private "OSC18UIAlertActionStyle"
+- !private "CSo17UIAlertController"
+- !private "OSC22UIAlertControllerStyle"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- !private "CSo11UITextField"
+- "PSo19UITextFieldDelegate"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "P9Alamofire20URLStringConvertible"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- "C7fotogma14ViewController"
+- !private "PSs10_ArrayType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FirebaseServerValue.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FTransactionResult.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FMutableData.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FirebaseApp.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FQuery.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FEventType.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FDataSnapshot.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FConfig.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FAuthType.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/FAuthData.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Headers/Firebase-umbrella.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Firebase.framework/Modules/module.modulemap"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFURL.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFTask.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Headers/Bolts.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/Bolts.framework/Modules/module.modulemap"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/jangchangsoon/Downloads/FacebookSDK/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules/Alamofire.swiftmodule/i386.swiftmodule"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/jangchangsoon/Library/Developer/Xcode/DerivedData/fotogma-ebrobthopsbcpzdvqfxegtpbzrqr/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules/module.modulemap"
+interface-hash: "80684fe38c058a13cf61f0b5cabe8954"

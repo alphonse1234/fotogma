@@ -1,0 +1,14 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "67e59efa381c2a7a19674d47b1883acf"
+build_time: [511358432, 760093000]
+inputs:
+  "/Users/jangchangsoon/Desktop/xcode projects/fotogma/fotogma/FeedVC.swift": [511027903, 0]
+  "/Users/jangchangsoon/Desktop/xcode projects/fotogma/fotogma/Constants.swift": [510316908, 0]
+  "/Users/jangchangsoon/Desktop/xcode projects/fotogma/fotogma/LoginTextFieldView.swift": [510238547, 0]
+  "/Users/jangchangsoon/Desktop/xcode projects/fotogma/fotogma/AppDelegate.swift": [510313368, 0]
+  "/Users/jangchangsoon/Desktop/xcode projects/fotogma/fotogma/Post.swift": [510847898, 0]
+  "/Users/jangchangsoon/Desktop/xcode projects/fotogma/fotogma/PostVC.swift": [511358432, 0]
+  "/Users/jangchangsoon/Desktop/xcode projects/fotogma/fotogma/LoginButtonView.swift": [510237552, 0]
+  "/Users/jangchangsoon/Desktop/xcode projects/fotogma/fotogma/DataService.swift": [510761092, 0]
+  "/Users/jangchangsoon/Desktop/xcode projects/fotogma/fotogma/PostCell.swift": [511287723, 0]
+  "/Users/jangchangsoon/Desktop/xcode projects/fotogma/fotogma/ViewController.swift": [510851253, 0]
