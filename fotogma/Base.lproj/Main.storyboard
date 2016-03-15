@@ -186,7 +186,7 @@
                                                 <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ihO-FI-8B2" userLabel="Container">
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="357.5"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="13" translatesAutoresizingMaskIntoConstraints="NO" id="UjU-5P-ncl">
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UjU-5P-ncl">
                                                             <rect key="frame" x="0.0" y="0.0" width="600" height="357.5"/>
                                                         </imageView>
                                                         <view alpha="0.34999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rV1-93-p3F">
@@ -358,7 +358,7 @@
                         <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="05" translatesAutoresizingMaskIntoConstraints="NO" id="y6m-wH-kU9">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01" translatesAutoresizingMaskIntoConstraints="NO" id="y6m-wH-kU9">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="350"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="290" id="F1s-I8-ckm"/>
@@ -455,9 +455,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="05" width="2448" height="3264"/>
+        <image name="01" width="3264" height="2448"/>
         <image name="06" width="2448" height="3264"/>
-        <image name="13" width="4080" height="2720"/>
         <image name="barbtn" width="22" height="18"/>
         <image name="heart-empty" width="150" height="147"/>
         <image name="logo" width="672" height="183"/>
